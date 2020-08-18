@@ -1,0 +1,77 @@
+nav {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+  }
+
+nav li, nav input {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  
+  /* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+  }
+
+nav li input {
+    display: block;
+    margin-top:10px;
+  }
+
+main {
+    background-color: #CCC;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left:10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+article {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    margin: 20px;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+form textarea {
+  width: 100%;
+  height: 200px;
+}
+
